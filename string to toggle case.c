@@ -2,7 +2,7 @@
 void main() {
 char a[50];
 printf("Enter a number: \n");
-scanf("%a",&a);
+scanf("%s",&a);
 
 int i=0;
 while (a[i]!= '\0'){
@@ -11,9 +11,10 @@ while (a[i]!= '\0'){
 
     }
     else if (a[i]>='A'&& a[i]<='Z'){
-      a[i]=a[i]+32
+      a[i]=a[i]+32;
            }
     i++;
 }
 printf("%s",a);
 }
+
